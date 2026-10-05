@@ -100,7 +100,7 @@ function Navbar() {
             animate={{ height: 'auto', opacity: 1 }}
             exit={shouldReduceMotion ? undefined : { height: 0, opacity: 0 }}
             transition={{ duration: shouldReduceMotion ? 0 : 0.3 }}
-            className="overflow-hidden border-t border-current/10 lg:hidden"
+            className="overflow-hidden border-t border-current/10 bg-[var(--color-paper)] text-[var(--color-ink)] shadow-lg lg:hidden"
           >
             <div className="mx-auto flex max-w-7xl flex-col px-6 pb-6 pt-3">
               {navigationLinks.map((link) => (
